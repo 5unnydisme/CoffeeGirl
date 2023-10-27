@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Platform
   - SpawnManager
+  - Weak Point
   layers:
   - Default
   - TransparentFX
