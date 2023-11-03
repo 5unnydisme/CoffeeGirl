@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
 
     public int maxHealth = 10;
     public int health;
+   
 
     public SpriteRenderer playerSr;
     public PlayerMovement2D playerMovement; 
@@ -25,7 +26,7 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0)
         {
             playerSr.enabled = false;
-            playerMovement.enabled = false; 
+            playerMovement.enabled = false;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }

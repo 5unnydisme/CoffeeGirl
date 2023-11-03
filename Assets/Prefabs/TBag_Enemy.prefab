@@ -89,7 +89,6 @@ GameObject:
   - component: {fileID: 6257633828135302120}
   - component: {fileID: 6816587320247381028}
   - component: {fileID: 2404210265400358927}
-  - component: {fileID: 3574402169979853993}
   - component: {fileID: 5258983694639178697}
   - component: {fileID: 7926568975394749651}
   m_Layer: 0
@@ -187,20 +186,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3574402169979853993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6912661139867526965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a05ce076d4440e28793b5a3e91577b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoint: 3
-  boltDamage: 1
 --- !u!114 &5258983694639178697
 MonoBehaviour:
   m_ObjectHideFlags: 0
